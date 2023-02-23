@@ -1,0 +1,82 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2023-02-23T16:26:06.211606",
+            "hasPart": [
+                {
+                    "@id": "pox-virus-half-genome.ga"
+                },
+                {
+                    "@id": "README.md"
+                }
+            ],
+            "isBasedOn": "https://github.com/iwc-workflows/pox-virus-amplicon",
+            "license": "MIT",
+            "mainEntity": {
+                "@id": "pox-virus-half-genome.ga"
+            },
+            "name": "pox-virus-amplicon/main"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "pox-virus-half-genome.ga",
+            "@type": [
+                "File",
+                "SoftwareSourceCode",
+                "ComputationalWorkflow"
+            ],
+            "creator": [
+                {
+                    "@id": "https://orcid.org/0000-0001-6897-1215"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9464-6640"
+                }
+            ],
+            "name": "pox-virus-amplicon/main",
+            "programmingLanguage": {
+                "@id": "#galaxy"
+            },
+            "url": "https://github.com/iwc-workflows/pox-virus-amplicon",
+            "version": "0.1"
+        },
+        {
+            "@id": "#galaxy",
+            "@type": "ComputerLanguage",
+            "identifier": {
+                "@id": "https://galaxyproject.org/"
+            },
+            "name": "Galaxy",
+            "url": {
+                "@id": "https://galaxyproject.org/"
+            },
+            "version": "v19_09"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6897-1215",
+            "@type": "Person",
+            "name": "Viktoria Isabel Schwarz"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9464-6640",
+            "@type": "Person",
+            "name": "Wolfgang Maier"
+        },
+        {
+            "@id": "README.md",
+            "@type": "File"
+        }
+    ]
+}
