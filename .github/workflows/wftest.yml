@@ -9,7 +9,6 @@ jobs:
     uses: galaxyproject/iwc/.github/workflows/setup.yml@main
     with:
       galaxy-fork: galaxyproject
-      galaxy-branch: master
   test:
     name: Test workflow
     needs: setup
@@ -17,6 +16,5 @@ jobs:
     with:
       galaxy-head-sha: ${{ needs.setup.outputs.galaxy-head-sha }}
       galaxy-fork: galaxyproject
-      galaxy-branch: master
       repository-list: '.'
       check-outputs: true
