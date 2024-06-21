@@ -4,7 +4,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2023-02-23T16:26:06.211606",
+            "datePublished": "2024-06-21T15:04:44.017897",
             "hasPart": [
                 {
                     "@id": "pox-virus-half-genome.ga"
@@ -50,7 +50,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/pox-virus-amplicon",
-            "version": "0.1"
+            "version": "0.2"
         },
         {
             "@id": "#galaxy",
